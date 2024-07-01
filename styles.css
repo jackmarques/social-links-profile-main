@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --font-padrão: font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Off-Black);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    font-family: var(--font-padrão);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.card{
+    background-color: var(--Dark-Grey);
+    width: 500px;
+    height: ;
+    border-radius: 0.75rem;
+    padding: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.title p{
+    font-size: 1.2rem;
+}
+.ftperfil img{
+    border-radius: 50%;
+    width: 9rem;
+    margin-bottom: 0.5rem;
+}
+h1{
+    font-size: 1.75rem;
+}
+h1, p{
+    color: var(--White);
+}
+h2{
+    color: var(--Green);
+    margin: 0.5rem 0 1.5rem;
+    font-weight: 700;
+}
+.social-links{
+    width: 100%;
+    margin-top: 2rem;
+}
+.social-links nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+}
+.social-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 4.5rem;
+    background-color: var(--Grey);
+    color: var(--White);
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.social-links a:hover{
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: 
+    center; 
+    color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
